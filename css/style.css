@@ -1,0 +1,50 @@
+:root {
+  /* primary colors  */
+  --black: #272a31;
+  --orange: #ec5242;
+  --gray: #d3d3d3;
+  --white: #fff;
+}
+
+/* global styling  */
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--white);
+  overflow-x: hidden;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* end of global styling  */
+
