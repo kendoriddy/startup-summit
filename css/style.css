@@ -188,6 +188,19 @@ img {
   .navbar {
     display: none;
   }
+
+  .desktop-event {
+    display: none;
+  }
+
+  .mobile-event button {
+    background-color: var(--orange);
+    padding: 20px;
+    outline: none;
+    border: none;
+    color: var(--white);
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -257,6 +270,10 @@ img {
     flex-direction: row;
   }
 
+  .program-title h2 {
+    padding-top: 30px;
+  }
+
   .events {
     flex-direction: column;
     text-align: center;
@@ -267,5 +284,19 @@ img {
 
   .events p {
     width: 100%;
+  }
+
+  .mobile-event {
+    display: none;
+  }
+
+  .desktop-event {
+    padding-bottom: 30px;
+  }
+
+  .desktop-event a {
+    color: var(--white);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--white);
   }
 }
