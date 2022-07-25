@@ -97,11 +97,79 @@ img {
   opacity: 0.6;
 }
 
+.program-title span {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2px;
+  width: 50px;
+  background-color: var(--orange);
+}
+
 .intro span:last-child {
   opacity: 0.6;
   padding-bottom: 30px;
   font-size: 12px;
   color: initial;
+}
+
+.program {
+  background: url(../assets/images/partners.jpg);
+  padding: 20px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.program-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.program-title h2 {
+  color: var(--white);
+}
+
+.program-events {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.events {
+  background-color: rgba(90, 88, 88, 0.392);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.events img {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.events h3 {
+  color: var(--orange);
+  font-size: 12px;
+  display: inline-block;
+}
+
+.events p {
+  width: 60%;
+  color: var(--white);
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
@@ -119,6 +187,19 @@ img {
 
   .navbar {
     display: none;
+  }
+
+  .desktop-event {
+    display: none;
+  }
+
+  .mobile-event button {
+    background-color: var(--orange);
+    padding: 20px;
+    outline: none;
+    border: none;
+    color: var(--white);
+    font-size: 14px;
   }
 }
 
@@ -183,5 +264,39 @@ img {
   .intro h4 {
     padding-top: 40px;
     padding-bottom: 5px;
+  }
+
+  .program-events {
+    flex-direction: row;
+  }
+
+  .program-title h2 {
+    padding-top: 30px;
+  }
+
+  .events {
+    flex-direction: column;
+    text-align: center;
+    min-height: 250px;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .events p {
+    width: 100%;
+  }
+
+  .mobile-event {
+    display: none;
+  }
+
+  .desktop-event {
+    padding-bottom: 30px;
+  }
+
+  .desktop-event a {
+    color: var(--white);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--white);
   }
 }
