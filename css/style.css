@@ -198,6 +198,10 @@ img {
   display: inline-block;
 }
 
+footer p {
+  font-size: 12px;
+}
+
 .events p {
   width: 60%;
   color: var(--white);
@@ -286,6 +290,7 @@ footer {
   display: flex;
   justify-content: space-around;
   padding: 40px;
+  gap: 30px;
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
