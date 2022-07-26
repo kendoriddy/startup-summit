@@ -16,21 +16,21 @@ const projectData = [
   {
     snapshot: './assets/images/shola.jpeg',
     speakerName: 'Shola Akinlade',
-    speakerTitle: 'Founder and CEO, Patricia Inc. and a board member of IFA Nigeria',
+    speakerTitle: 'Founder and CEO, Paystack Inc. and a board member of IFA Nigeria',
     description:
         "Shola Akinlade is a Nigerian software engineer and entrepreneur. He is the co-founder and CEO of Paystack. In 2020, Akinlade's company was acquired by Stripe for $200m.",
   },
   {
     snapshot: './assets/images/victor.jpeg',
     speakerName: 'Victor Okoroji',
-    speakerTitle: 'Founder and CEO, VickyMail, and a board member of IFA Nigeria',
+    speakerTitle: 'Co-founder and CEO, VickyMail, and a board member of IFA Nigeria',
     description:
         'Victor Okoroji is a Nigerian software engineer and entrepreneur. He is the co-founder and CEO of VickyMail. Victor is also computer teacher in Roemichs college who enjoys building young ones in tech.',
   },
   {
     snapshot: './assets/images/yemi.jpeg',
     speakerName: 'Adeyemi Buhari',
-    speakerTitle: 'Founder and CEO, VickyMail, and a board member of IFA Nigeria',
+    speakerTitle: 'Co-founder and CTO, VickyMail, and a board member of IFA Nigeria',
     description:
         'Adeyemi Buhari is a Nigerian software engineer and entrepreneur. He is the co-founder and CEO of VickyMail and a scholar of TIIDELab.',
   },
