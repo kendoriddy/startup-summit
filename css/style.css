@@ -59,6 +59,11 @@ img {
   color: var(--black);
 }
 
+.mobile-nav a {
+  color: var(--white);
+  border-bottom: 0.5px solid var(--gray);
+}
+
 .pre-nav li a {
   color: var(--white);
 }
@@ -310,7 +315,6 @@ footer {
     display: none;
   }
 
-
   .desktop-event {
     display: none;
   }
@@ -343,7 +347,6 @@ footer {
   display: none;
 }
 
-
 .times {
   color: var(--white);
   margin-bottom: 20px;
@@ -372,11 +375,6 @@ footer {
   font-size: 18px;
 }
 
-.mobile-nav a {
-  color: var(--white);
-  border-bottom: .5px solid var(--gray);
-}
-
 @media screen and (min-width: 769px) {
   .pre-nav {
     background-color: var(--brown);
@@ -387,7 +385,8 @@ footer {
   }
 
   .hamburger,
-  .times, .mobile-menu {
+  .times,
+  .mobile-menu {
     display: none;
   }
 
