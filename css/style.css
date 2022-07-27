@@ -156,7 +156,6 @@ img {
   gap: 10px;
 }
 
-
 .speaker-title {
   display: flex;
   justify-content: center;
@@ -303,7 +302,6 @@ footer {
 .hide {
   display: none;
 }
-
 
 .bu-more:hover {
   cursor: pointer;
