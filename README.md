@@ -1,7 +1,7 @@
 # startup-summit
 This project is my first capstone project at Microverse. I will be building a website for the upcoming (fictional) Nigeria's first Entrepreneurship and Startup Management Summit
 
-![screenshot](./assets/designs/home.PNG)
+![screenshot](./assets/images/summit.png)
 
 The goal of this project is to build a simple multi page responsive conference website which will be coming up later this year. The website will show all the necessary information concerning the conference including: the speakers, program of event, sponsors and other relevant information.
 
