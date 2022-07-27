@@ -1,5 +1,5 @@
 # startup-summit
-This project is my first capstone project at Microverse. I built a website for the upcoming (fictional) Africa's Entrepreneurship and Startup Management Summit, design inspired by [Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+This project is my first capstone project at Microverse. I built a website for the upcoming (fictional) Africa's Entrepreneurship and Startup Management Summit. The design for this project is inspired by [Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 ![screenshot](./assets/designs/home.PNG)
 ![screenshot](./assets/images/summit.png)
