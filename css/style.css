@@ -491,6 +491,10 @@ footer {
     gap: 20px;
   }
 
+  .events:hover {
+    border: 1px solid var(--white);
+  }
+
   .events p {
     width: 100%;
   }
