@@ -304,24 +304,21 @@ footer {
   display: none;
 }
 
-#speakers .bu-more {
-  width: 100%;
-  padding: 10px 0;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  border: 1px solid var(--grey);
-  background: var(--white);
-}
 
-#speakers .bu-more:hover {
+.bu-more:hover {
   cursor: pointer;
 }
 
-#speakers .bu-more i {
+.bu-more i {
   color: var(--orange);
   margin-left: 5px;
   font-weight: 900;
   font-size: 15px;
+}
+
+.partner p:nth-child(even) {
+  font-weight: bold;
+  font-size: 30px;
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
@@ -371,6 +368,7 @@ footer {
   padding-left: 30px;
   padding-top: 50px;
   display: none;
+  transition: all 2s ease;
 }
 
 .times {
@@ -529,7 +527,7 @@ footer {
     display: flex;
   }
 
-  #speakers .bu-more {
+  .bu-more {
     display: none;
   }
 }

@@ -42,11 +42,11 @@ function toggleShowSpeakers() {
     if (arrow.classList.contains('down')) {
       arrow.classList.remove('down');
       arrow.classList.add('up');
-      buMore.childNodes[0].textContent = 'Less ';
+      buMore.childNodes[0].textContent = 'LESS ';
     } else {
       arrow.classList.remove('up');
       arrow.classList.add('down');
-      buMore.childNodes[0].textContent = 'More ';
+      buMore.childNodes[0].textContent = 'MORE ';
     }
   });
 }
