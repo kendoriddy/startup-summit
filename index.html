@@ -1,12 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts  -->
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+    <link href="http://fonts.cdnfonts.com/css/lato" rel="stylesheet" />
+    <!-- Font awesome  -->
+    <script src="https://use.fontawesome.com/3d717ebef2.js"></script>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Africa's Entrepreneurship and Startup Management Summit '22</title>
+  </head>
+  <body>
+    <section class="intro-container">
+      <section class="nav-container">
+        <ul class="pre-nav">
+          <li>
+            <a href="#"><i class="fa fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="time" id="close-btn">
+              <i class="fa fa-times times fa-2x"></i>
+            </div>
+            <ul class="mobile-nav" id="mobile-nav">
+              <li><a href="about.html" class="nav-item" id="mobile-about">🖐 About </a></li>
+              <li><a href="#" class="nav-item" id="mobile-program">🖐 Program </a></li>
+              <li><a href="#" class="nav-item" id="mobile-join">🖐 Join </a></li>
+              <li><a href="#" class="nav-item" id="mobile-sponsor">🖐 Sponsor </a></li>
+              <li><a href="#" class="nav-item" id="mobile-news">🖐 News </a></li>
+              <li><a href="#" class="nav-item" id="mobile-campaign">🖐 CC Campaign </a></li>
+            </ul>
+        </div>
+        <header>
+          <!-- <div class="hamburger" id="hamburger"> -->
+            <div class="bars">
+              <i class="fa fa-bars bar fa-2x hamburger"  id="hamburger"></i>
+            </div>
+          <!-- </div> -->
+          <div class="navbar">
+            <a href="#" class="navbar-brand"
+              >IFA <br />
+              Summit '22</a
+            >
+            <nav>
+              <ul>
+                <li><a href="about.html" class="nav-item" id="about">About </a></li>
+                <li><a href="#" class="nav-item" id="program">Program </a></li>
+                <li><a href="#" class="nav-item" id="join">Join </a></li>
+                <li><a href="#" class="nav-item" id="sponsor">Sponsor </a></li>
+                <li><a href="#" class="nav-item" id="news">News </a></li>
+                <li><a href="#" class="nav-item" id="campaign">CC Campaign </a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </section>
+
+      <!-- Introductory section  -->
+      <section class="intro" id="home-intro">
+        <span>"Innovate For Africa!"</span>
+        <h1>
+          ENTREPRENEURSHIP AND <br />
+          STARTUP SUMMIT <br />
+          2022
+        </h1>
+        <p class="intro-description">
+          A summit where investors, entrepreneurs, and tech leaders from all over Africa huddle
+          together for two days of intense learning and networking in Abuja, Nigeria.
+        </p>
+        <h4>2022.10.25(THU) ~ 26(FRI)</h4>
+        <span>@ National Event Center, Garki Abuja, Nigeria</span>
+      </section>
+    </section>
+
+    <!-- Program section  -->
+    <section class="program">
+      <div class="program-title">
+        <h2>Main Program!</h2>
+        <span></span>
+      </div>
+
+      <div class="program-events">
+        <div class="events">
+          <img src="./assets/images/lecture.png" alt="lecture" />
+          <h3>Lecture</h3>
+          <p>
+            Listen to the speakers with diverse experience about entrepreneurship and running of
+            startups.
+          </p>
+        </div>
+        <div class="events">
+          <img src="./assets/images/exhibition.png" alt="exhibition" />
+          <h3>IFA Exhibition</h3>
+          <p>
+            Share ideas and acknowledge ideas with the potential of making positive impact in the
+            society.
+          </p>
+        </div>
+        <div class="events">
+          <img src="./assets/images/forum.png" alt="forum" />
+          <h3>Forum</h3>
+          <p>
+            Have the opportunity to share your thoughts and opinions with experts for each topic.
+          </p>
+        </div>
+        <div class="events">
+          <img src="./assets/images/workshop.png" alt="workshop" />
+          <h3>Workshop</h3>
+          <p>Put your ideas into action and create awesome MVPs, rather than just watching.</p>
+        </div>
+        <div class="events">
+          <img src="./assets/images/ignite.png" alt="ignite" />
+          <h3>IFA Ignite</h3>
+          <p>
+            Get opportunity to network with IFA advocates around the world and find lifelong
+            mentors.
+          </p>
+        </div>
+      </div>
+      <!-- Mobile event button  -->
+      <div class="mobile-event">
+        <button type="button">Join IFA Africa Summit 2022</button>
+      </div>
+      <!-- desktop event -->
+      <div class="desktop-event">
+        <a href="#">See the whole program</a>
+      </div>
+    </section>
+
+    <!-- Featured Speakers  -->
+    <section class="speakers" id="speakers">
+      <div class="speaker-title">
+        <h2>Featured Speakers</h2>
+        <span></span>
+      </div>
+      <div class="speaker-grid"></div>
+
+      <button type="button" class="btn bu-more" id="btn">
+        MORE <span> <i class="fa fa-angle-right down"></i></span>
+      </button>
+    </section>
+
+    <!-- Partners section  -->
+    <section class="partners">
+      <div class="partner-title">
+        <h2>Partners</h2>
+        <span></span>
+      </div>
+      <div class="partner">
+        <p>NovuStack</p>
+        <p><b>Nifadera</b></p>
+        <p>K Solutions</p>
+        <p><b>NECA</b></p>
+        <p>TIIDELab</p>
+        <p><b>FoodCo</b></p>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer>
+      <h4>Innovate For Africa</h4>
+      <p>
+        2020 &copy; Innovate For Africa. <br />
+        All Rights Reserved
+      </p>
+    </footer>
+
+    <script src="./js/speakers.js" type="module"></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
