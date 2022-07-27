@@ -19,7 +19,8 @@ The project will contain the homepage and about page.
 ## Live Demo
 Live demo [here](https://kendoriddy.github.io/startup-summit/)
 
-
+## Video Demo
+View my video demo [here](https://www.loom.com/share/46390fcf62ab401a9b96f88226d47ef3)
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
