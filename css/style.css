@@ -138,7 +138,8 @@ img {
 }
 
 .program {
-  background: url(../assets/images/partners.jpg);
+  background-image: url(../assets/images/partners.jpg);
+  background-color: #272a32;
   padding: 20px;
   background-size: cover;
   display: flex;
@@ -298,6 +299,26 @@ footer {
   gap: 30px;
 }
 
+.hide {
+  display: none;
+}
+
+.bu-more:hover {
+  cursor: pointer;
+}
+
+.bu-more i {
+  color: var(--orange);
+  margin-left: 5px;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.partner p:nth-child(even) {
+  font-weight: bold;
+  font-size: 30px;
+}
+
 @media screen and (max-width: 768px) and (min-width: 320px) {
   .pre-nav {
     display: none;
@@ -345,6 +366,7 @@ footer {
   padding-left: 30px;
   padding-top: 50px;
   display: none;
+  transition: all 2s ease;
 }
 
 .times {
@@ -373,6 +395,14 @@ footer {
 .mobile-nav li a:hover {
   color: var(--gray);
   font-size: 18px;
+}
+
+.down {
+  transform: rotate(90deg);
+}
+
+.up {
+  transform: rotate(-90deg);
 }
 
 @media screen and (min-width: 769px) {
@@ -488,6 +518,14 @@ footer {
   }
 
   .speakers button {
+    display: none;
+  }
+
+  .hidden-speakers {
+    display: flex;
+  }
+
+  .bu-more {
     display: none;
   }
 }
