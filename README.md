@@ -17,7 +17,7 @@ The project will contain the homepage and about page.
 - Linters
 
 ## Live Demo
-
+Live demo [here](https://kendoriddy.github.io/startup-summit/)
 
 
 ## Getting Started
