@@ -378,9 +378,10 @@ footer {
   cursor: pointer;
 }
 
-.hamburger {
+.bars i::before {
   display: block;
   cursor: pointer;
+  width: fit-content;
 }
 
 .mobile-nav {
