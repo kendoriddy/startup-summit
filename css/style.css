@@ -378,9 +378,6 @@ footer {
   cursor: pointer;
 }
 
-.hamburger {
-}
-
 .bars i::before {
   display: block;
   cursor: pointer;
